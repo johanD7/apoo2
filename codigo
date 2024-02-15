@@ -1,0 +1,52 @@
+package leaderboard;
+
+import java.util.Scanner;
+
+public class Leaderboard 
+{
+
+	 //atributos
+	
+	static String nombreVideoJuego;
+	
+	//arreglo de nombres:
+	static String nombreJugadores[];
+	
+	//matriz de puntajes:
+	static int puntajes [][];
+	
+	//promedios:
+	static float promPuntos, promHP;
+	
+	//constante para el numero de jugadores:
+	static final int NUM_JUGADORES =10;
+	
+	//metodos:
+	public static void main (String [] args)
+	{
+		pedirNombreJuego();	
+	
+}
+	public static void pedirNombreJuego()
+	
+	{
+	//se crea objeto para leer por consola:
+		Scanner lectorConsola = new Scanner (System.in);
+		System.out.println("Ingrese el nombre del video juego:");
+		nombreVideoJuego = lectorConsola.next();
+	}
+	//LEER NOMBRE DE JUGADORES Y PUNTAJES:
+	public static void leerDatos()
+	{
+		//recorrer arreglo:
+		//leer cada nombre
+		
+	}
+	public static void calcularProm()
+	{
+		
+	}
+	public static void mostrarProm() {
+		
+	}
+}
